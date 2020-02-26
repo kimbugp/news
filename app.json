@@ -7,7 +7,7 @@
     "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./app/assets/icon.png",
+    "icon": "./app/assets/logo.png",
     "splash": {
       "image": "./app/assets/splash.png",
       "resizeMode": "contain",
@@ -15,6 +15,9 @@
     },
     "updates": {
       "fallbackToCacheTimeout": 0
+    },
+    "android": {
+      "package": "com.mirest.stylist"
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
